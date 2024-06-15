@@ -1,0 +1,13 @@
+div.alert{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    width: 300px;
+}
+.blur {
+    flex-grow: 1;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+  }
